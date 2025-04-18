@@ -1,0 +1,95 @@
+/*/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container to center the content */
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Input styles */
+input[type="url"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 1em;
+    margin: 15px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="url"]:focus {
+    border-color: #5b9bd5;
+}
+
+/* Button styles */
+button {
+    padding: 12px 20px;
+    font-size: 1.1em;
+    background-color: #5b9bd5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3a6b99;
+}
+
+/* Link and other text styles */
+a {
+    color: #5b9bd5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #3a6b99;
+}
+
+/* Result section styles */
+button[onclick] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+}
+
+button[onclick]:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 1.1em;
+    color: #333;
+    margin: 15px 0;
+}
+*/

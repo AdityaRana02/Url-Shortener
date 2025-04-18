@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shortened URL</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Shortened URL</h1>
+        <p>Original URL: <a href="{{ original_url }}" target="_blank">{{ original_url }}</a></p>
+        <p>Short URL: <a href="{{ short_url }}" target="_blank">{{ short_url }}</a></p>
+        <button onclick="copyToClipboard('{{ short_url }}')">📋 Copy Short Link</button>
+        <br><br>
+        <a href="{{ url_for('index') }}">Shorten another URL</a>
+    </div>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert("Short URL copied to clipboard!");
+            });
+        }
+    </script>
+</body>
+</html>
